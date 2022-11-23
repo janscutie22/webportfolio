@@ -1,0 +1,145 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+.main-css{
+	background-color: #F2D1D1;
+	
+}
+
+/*Navbar CSS*/
+.nav-link{
+	margin: 0.8rem 2rem 2rem 2rem;
+	
+}
+.navbar{
+	position: sticky;
+}
+
+.brain-css{
+	position: absolute;
+	margin-left:50%;
+}
+.brain-picture{
+	height:5rem;
+	width: 5rem;
+}
+
+/*Profile CSS*/
+
+.intro-text{
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	margin-top: 25%;
+	font-size: 4em;
+}
+.intro-span{
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+
+.main-photo{
+	width:90%;
+	height: 50%;
+
+}
+
+
+
+
+/*/Box section*/
+.first-box{
+		width:100%;
+		border-radius: 20px;
+		position: relative;
+		display: block;
+		transition: all .4s ease-in-out;
+		padding: 3em 3em 4em;
+		background-color:#ffeec4 ;
+
+}
+
+.first-box:hover{
+	background: linear-gradient(338.83deg,#f8c6ff -3.41%,rgba(255,196,255,0) 52.31%),#ffeec4;
+}
+.second-box{
+		width: 100%;
+	    border-radius: 20px;
+	    position: relative;
+	    display: block;
+	    padding: 3em 3em 4em;
+	    background-color: #FFE3E1;
+}
+.second-box:hover{
+	background: linear-gradient(6.03deg,#dacdff .5%,rgba(218,205,255,0) 46.89%),#ffeaee;
+}
+
+
+/*About me section*/
+.about-me-text{
+	font-family: 'Montserrat', sans-serif;
+	color: gray;
+}
+.get-to-know{
+	font-family: 'Roboto Slab', serif;
+	font-size: 2rem;
+}
+.about-me-description{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 3;
+}
+
+/*Project Section*/
+.card-bg{
+	background-color: #FFE3E1 ;
+}
+
+
+/*Carousel CSS*/
+#testimonials{
+
+  text-align: center;
+  background-color: #F7A4A4;
+  color: white;
+  font: 2.5rem;
+}
+
+.testimony-box{
+	width: 100%;
+	border-radius: 20px;
+	position: relative;
+	display: block;
+	transition: all .4s ease-in-out;
+	padding: 3em 3em 4em;
+}
+.testimony-box:hover{
+	background: linear-gradient(314.25deg,rgba(10,185,149,.7) 1.09%,rgba(10,185,149,0) 43.26%),#dacdff;
+}
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  background-color: #E5D9B6;
+
+}
+
+.carousel-item{  padding: 7% 17%;}
+
+.testimony-text{
+	font-family: "Montserrat-bold";
+	font-size: 3rem;
+	line-height: 2;
+	text-align: center;
+}
+
+
+/**/
+
+
